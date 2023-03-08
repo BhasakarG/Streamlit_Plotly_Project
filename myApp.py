@@ -67,6 +67,7 @@ secondary_select = st.sidebar.selectbox("-- Secondary Selection --", final_df.co
 plot = st.sidebar.button("Plot Graph")
 st.title("India Census Information on Map")
 st.text("Choose the details from the sidebar and click the Button 'Plot Graph' ")
+
 if plot:
     if state_selected == 'Overall India' :
         st.text("Color Represents Primary Parameter")
