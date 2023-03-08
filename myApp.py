@@ -79,6 +79,8 @@ if plot:
         st.plotly_chart(fig,use_container_width=True)
 
     else:
+        st.text("Color Represents Primary Parameter")
+        st.text("Size Represents Secondary Parameter")
         ## Selected States
         state_df = final_df[final_df['State'] == state_selected]
 
